@@ -53,7 +53,7 @@ The top 40% are labelled **high-value**. Four classifiers are trained and compar
 
 ### 2. Customer segmentation (clustering)
 - **K-Means** groups customers into **4 segments** used by the recommender
-- **Gaussian Mixture Model** provides a probabilistic segmentation for marketing analysis *(branch `MARAM-create-patch-1`)*
+- **Gaussian Mixture Model** provides a probabilistic segmentation for marketing analysis *(branch `feature/gmm-segmentation`)*
 
 ![Customer segments](docs/images/segments.jpg)
 
@@ -140,14 +140,7 @@ ShopSense/
 
 | Branch | Content |
 |---|---|
-| `master` *(default)* | Main application: classification, recommender and web app |
-| `MARAM-create-patch-1` | Latest version, with GMM segmentation and the French interface |
-| `feature/add-dataset-and-fixes` | Dataset and prediction fixes |
-| `nawnaw` | New pages and UI corrections |
-
----
-
-## Team
-
-Built by a team of 6 engineering students at **ESPRIT** (2025), including **Fatma Boubakri**.
-Original repository: [iborntowin/ShopSense](https://github.com/iborntowin/ShopSense).
+| `main` *(default)* | Main application: classification, recommender and web app |
+| `feature/gmm-segmentation` | Latest version, with GMM segmentation and the French interface |
+| `fix/dataset-and-prediction` | Dataset and prediction fixes |
+| `feature/ui-pages` | New pages and UI corrections |
